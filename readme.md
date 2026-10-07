@@ -1,106 +1,73 @@
-Programación III
-Autor
+# Programación III
 
-Nombre: Alisson Ormaza
+## Autor
 
-Descripción
+**Alisson Ormaza**
 
-Repositorio correspondiente a la materia Programación III, donde se recopilan ejercicios, prácticas, proyectos y conocimientos adquiridos durante el desarrollo de la asignatura.
+## Descripción
 
-A lo largo del curso se trabajarán diferentes tecnologías y conceptos fundamentales para el desarrollo web moderno, comenzando desde los fundamentos de la web hasta el desarrollo de aplicaciones utilizando frameworks y herramientas actuales.
+Este repositorio corresponde a la materia **Programación III**, donde se desarrollarán diferentes tecnologías y herramientas orientadas al desarrollo web y de aplicaciones modernas.
 
-Tecnologías y conceptos
-HTML
+Durante el curso se trabajarán conceptos de desarrollo **Frontend** y **Backend**, utilizando tecnologías como HTML, CSS, JavaScript, TypeScript, NestJS y ReactJS.
 
-HTML (HyperText Markup Language) es el lenguaje utilizado para estructurar el contenido de las páginas web. Permite definir elementos como títulos, párrafos, imágenes, enlaces, formularios, tablas y diferentes secciones de una página.
+## Tecnologías y conceptos
 
-CSS
+### HTML
 
-CSS (Cascading Style Sheets) se utiliza para definir la presentación y el diseño de las páginas web. Permite trabajar con colores, fuentes, tamaños, posiciones, diseños responsivos, animaciones y otros aspectos visuales.
+**HTML (HyperText Markup Language)** es el lenguaje utilizado para estructurar el contenido de una página web. Permite definir elementos como títulos, párrafos, imágenes, enlaces, formularios y tablas.
 
-JavaScript
+### CSS
 
-JavaScript es un lenguaje de programación utilizado principalmente para agregar interactividad y comportamiento dinámico a las aplicaciones web. Permite manipular elementos HTML, responder a eventos, trabajar con datos y comunicarse con servicios externos mediante APIs.
+**CSS (Cascading Style Sheets)** se utiliza para diseñar y dar estilo a las páginas web. Permite modificar colores, tamaños, posiciones, fuentes, márgenes y la distribución de los elementos.
 
-TypeScript
+### JavaScript
 
-TypeScript es un lenguaje basado en JavaScript que incorpora tipado estático y otras características que facilitan la creación y mantenimiento de aplicaciones de mayor tamaño. Es ampliamente utilizado en proyectos modernos tanto de frontend como de backend.
+**JavaScript** es un lenguaje de programación utilizado principalmente para agregar interactividad y comportamiento dinámico a las páginas y aplicaciones web. Permite trabajar con eventos, funciones, objetos, datos y comunicación con servicios.
 
-NestJS
+### TypeScript
 
-NestJS es un framework para desarrollar aplicaciones backend utilizando Node.js y TypeScript. Está orientado a la creación de aplicaciones escalables y utiliza una arquitectura modular que facilita la organización del código.
+**TypeScript** es un lenguaje basado en JavaScript que incorpora tipado estático y otras características que facilitan la organización y mantenimiento del código. Es ampliamente utilizado en aplicaciones web de mayor complejidad.
 
-Entre sus principales características se encuentran:
+### NestJS
 
-Arquitectura modular.
+**NestJS** es un framework para desarrollar aplicaciones del lado del servidor utilizando Node.js y TypeScript. Permite crear APIs y aplicaciones backend mediante una estructura organizada basada en módulos, controladores y servicios.
 
-Controladores y servicios.
+### ReactJS
 
-Inyección de dependencias.
+**ReactJS** es una biblioteca de JavaScript utilizada para construir interfaces de usuario. Permite desarrollar aplicaciones mediante componentes reutilizables y gestionar de manera eficiente la interacción con el usuario.
 
-Manejo de APIs REST.
+## Objetivo del repositorio
 
-Integración con bases de datos.
+El objetivo de este repositorio es almacenar, organizar y documentar las actividades, ejercicios y proyectos desarrollados durante la materia de **Programación III**, aplicando progresivamente los conocimientos adquiridos en cada tecnología.
 
-Uso de TypeScript.
+## Tecnologías principales
 
-ReactJS
+* HTML
+* CSS
+* JavaScript
+* TypeScript
+* NestJS
+* ReactJS
+* Node.js
 
-ReactJS es una biblioteca de JavaScript utilizada para construir interfaces de usuario. Permite desarrollar aplicaciones web mediante componentes reutilizables y facilita la creación de interfaces dinámicas e interactivas.
+## Estructura del repositorio
 
-Entre sus conceptos principales se encuentran:
+Los archivos y proyectos se organizarán de acuerdo con los temas y actividades desarrolladas durante el curso.
 
-Componentes.
-
-Props.
-
-Estado.
-
-Hooks.
-
-Eventos.
-
-Renderizado dinámico.
-
-Consumo de APIs.
-
-Objetivo
-
-El objetivo de este repositorio es documentar el proceso de aprendizaje y desarrollo de los diferentes temas abordados en Programación III, aplicando progresivamente los conocimientos adquiridos en ejercicios y proyectos prácticos.
-
-Estructura del repositorio
-
-La estructura del repositorio se irá organizando de acuerdo con las unidades y prácticas desarrolladas durante la materia.
-
+```text
 Programacion-III/
-├── html/
-├── css/
-├── javascript/
-├── typescript/
-├── nestjs/
-├── reactjs/
+│
+├── HTML/
+├── CSS/
+├── JavaScript/
+├── TypeScript/
+├── NestJS/
+├── ReactJS/
+├── ejercicios/
 └── README.md
+```
 
-Tecnologías utilizadas
+---
 
-HTML5
-
-CSS3
-
-JavaScript
-
-TypeScript
-
-Node.js
-
-NestJS
-
-ReactJS
-
-Git
-
-GitHub
-
-Conclusión
-
-Este repositorio servirá como evidencia del aprendizaje y desarrollo de competencias relacionadas con la programación y el desarrollo web, integrando tecnologías de frontend y backend a lo largo de la materia.
+**Materia:** Programación III
+**Autor:** Alisson Ormaza
