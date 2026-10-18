@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscripción - Academia de Gotham</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Academia de Detectives de Gotham</h1>
+        <p>Registra tu solicitud de ingreso</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="personajes.html">Personajes</a>
+        <a href="misiones.html">Misiones</a>
+        <a href="multimedia.html">Multimedia</a>
+        <a href="inscripcion.html">Inscripción</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Formulario de inscripción</h2>
+
+            <form>
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre"
+                       name="nombre" required>
+
+                <br><br>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo"
+                       name="correo" required>
+
+                <br><br>
+
+                <label for="alias">Alias de detective:</label>
+                <input type="text" id="alias"
+                       name="alias">
+
+                <br><br>
+
+                <label for="especialidad">Especialidad:</label>
+
+                <select id="especialidad" name="especialidad">
+                    <option value="investigacion">
+                        Investigación
+                    </option>
+
+                    <option value="tecnologia">
+                        Tecnología
+                    </option>
+
+                    <option value="observacion">
+                        Observación
+                    </option>
+                </select>
+
+                <br><br>
+
+                <label for="motivacion">
+                    ¿Por qué quieres ingresar?
+                </label>
+
+                <br>
+
+                <textarea id="motivacion"
+                          name="motivacion"
+                          rows="4"
+                          cols="35"></textarea>
+
+                <br><br>
+
+                <input type="checkbox" id="condiciones"
+                       name="condiciones" required>
+
+                <label for="condiciones">
+                    Acepto los terminos y condiciones.
+                </label>
+
+                <br><br>
+
+                <button type="submit">Enviar inscripción</button>
+                <button type="reset">Limpiar formulario</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Academia de Gotham - 2026</p>
+    </footer>
+
+</body>
+</html>
