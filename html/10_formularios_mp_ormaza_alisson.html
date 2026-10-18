@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario BalanceaT</title>
+</head>
+<body>
+    <h1>FORMULARIO DE REGISTRO</h1>
+    <h2>Autor:Alisson Ormaza</h2>
+    <form action="/registro" method="post">
+        <table>
+            <tr>
+                <td>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" 
+                    id="nombre" 
+                    name="nombre"
+                    placeholder="Ej: Laura"
+                    minlength="3"
+                    maxlength="20">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="apellido">Apellido:</label><br>
+                    <input type="text" id="apellido" name="apellido">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Contraseña:</label><br>
+                    <input type="password" id="password" name="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password_confirm">Confirmar Contraseña:</label><br>
+                    <input type="password" id="password_confirm" name="password_confirm">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="edad">Edad:</label><br>
+                    <input type="number" id="edad" name="edad">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="nivel_actividad">Nivel de actividad física:</label><br>
+                    <input
+                        type="range" 
+                        id="nivel_actividad" 
+                        name="nivel_actividad" 
+                        min="10" 
+                        max="100"
+                        value="50"
+                        step="5">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Seleccione su objetivo principal:</p>
+                    <input type="radio" id="perdida_grasa" name="objetivo" value="perdida_grasa">
+                    <label for="perdida_grasa">Pérdida de grasa</label>
+                    <input type="radio" id="ganancia_muscular" name="objetivo" value="ganancia_muscular">
+                    <label for="ganancia_muscular">Ganancia muscular</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Seleccione sus restricciones / condiciones:</p>
+                    <input 
+                        type="checkbox" 
+                        id="vegetariano" 
+                        name="restricciones" 
+                        value="vegetariano">
+                    <label for="vegetariano">Vegetariano / Vegano</label><br>
+                    <input 
+                        type="checkbox" 
+                        id="celiaco"
+                        name="restricciones"
+                        value="celiaco">
+                    <label for="celiaco">Sin gluten / Celiaco</label><br>
+                    <input 
+                        type="checkbox" 
+                        id="intolerante_lactosa"
+                        name="restricciones"
+                        value="intolerante_lactosa">
+                    <label for="intolerante_lactosa">Intolerante a la lactosa</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dieta_actual">Tipo de dieta actual:</label><br>
+                    <select id="dieta_actual" name="dieta_actual" required>
+                        <option value="omnivora">
+                            Omnívora
+                        </option>
+                        <option value="mediterranea">
+                            Mediterránea
+                        </option>
+                        <option value="keto">
+                            Cetogénica (Keto)
+                        </option>
+                    </select>
+                </td>
+                <td>
+                    <label for="horarios_comida">Horarios de comida preferidos:</label><br>
+                    <select id="horarios_comida" name="horarios_comida" multiple size="2">
+                        <option value="">
+                            Selecciona un horario
+                        </option>
+                        <option value="desayuno_temprano">
+                            Desayuno temprano
+                        </option>
+                        <option value="almuerzo_regular">
+                            Almuerzo regular
+                        </option>
+                        <option value="cena_ligera">
+                            Cena ligera
+                        </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Datos Generales</legend>
+                        <label for="peso">Peso actual (kg):</label><br>
+                        <input type="number" id="peso" name="peso"><br>
+                        <label for="estatura">Estatura (cm):</label><br>
+                        <input type="number" id="estatura" name="estatura"><br>
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+        <button type="submit">Registrarse</button>
+        <button type="reset">Reset</button>
+
+    </form>
+</body>
+</html>

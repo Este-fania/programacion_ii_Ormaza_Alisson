@@ -1,0 +1,186 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Registro de pacientes</title>
+</head>
+<body>
+
+    <header>
+        <h1>BalanceaT</h1>
+        <h3>Autor:Alisson Ormaza</h3>
+        <p>Registro de Pacientes</p>
+    </header>
+    <hr>
+    <main>
+        <form action="#"
+              method="get"
+              id="registro-pacientes>
+
+            <fieldset>
+                <legend>Información del paciente</legend>
+
+                <label for="codigo">
+                    Código del paciente:
+                </label>
+
+                <input type="text"
+                       id="codigo"
+                       name="codigo"
+                       placeholder="PD-0103"
+                       maxlength="10"
+                       required>
+                <br><br>
+                <label for="Medico Asignado">
+                    Médico Asignado:
+                </label>
+                <select id="Medico Asignado"
+                        name="Medico Asignado"
+                        required>
+                    <option value="">
+                        Selecciona médico:
+                    </option>
+
+                    <option value="Dr. Gonzales A.">
+                        Dr. Gonzales A.
+                    </option>
+
+                    <option value="Dr. Enriquez V.">
+                        Dr. Enriquez V.
+                    </option>
+
+                    <option value="Dr. Ortega M.">
+                        Dr. Ortega M.
+                    </option>
+
+                </select>
+
+                <br><br>
+
+                <label for="Objetivo del paciente">
+                    Objetivo del paciente:
+                </label>
+
+                <input type="text"
+                       id="Objetivo del paciente"
+                       name="Objetivo del paciente"
+                       placeholder="Ej. Perdida de Grasa"
+                       required>
+
+                <br><br>
+
+                <label for="fecha">
+                    Fecha de inicio:
+                </label>
+
+                <input type="date"
+                       id="fecha"
+                       name="fecha"
+                       required>
+
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <legend>Características</legend>
+                <p>Género:</p>
+                <input type="radio"
+                       id="mujer"
+                       name="genero"
+                       value="mujer"
+                       required>
+
+                <label for="mujer">Mujer</label>
+
+                <input type="radio"
+                       id="hombre"
+                       name="genero"
+                       value="hombre">
+
+                <label for="hombre">Hombre</label>
+
+                <input type="radio"
+                       id="otro"
+                       name="genero"
+                       value="otro">
+
+                <label for="otro">Otro</label>
+
+                <br><br>
+                <label for="actividad">
+                    Nivel de actividad fisica(1 a 10):
+                </label>
+                <input type="number"
+                       id="actividad"
+                       name="actividad"
+                       min="1"
+                       max="10"
+                       value="5">
+                <p>Restricciones Alimentarias:</p>
+                <input type="checkbox"
+                       id="intolerancia"
+                       name="restriccion"
+                       value="intolerancia>
+                <label for="intolerancia">
+                    Intoleracia a la lactosa
+                <br>
+                <input type="checkbox"
+                       id="vegetarianismo"
+                       name="restriccion"
+                       value="vegetarianismo">
+                <label for="vegetarianismo">
+                    vegetarianismo
+                </label>
+                <br>
+                <input type="checkbox"
+                       id="kosher"
+                       name="restriccion"
+                       value="kosher">
+                <label for="kosher">
+                    Kosher(Judaismo)
+                </label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Descripción de la dieta</legend>
+                <label for="descripcion">
+                    Objetivo principal:
+                </label>
+
+                <br>
+                <textarea id="descripcion"
+                          name="descripcion"
+                          rows="5"
+                          cols="45"
+                          maxlength="500"
+                          placeholder="Describe la dieta..."
+                          required></textarea>
+            </fieldset>
+            <br>
+            <button type="submit">
+                Registrar misión
+            </button>
+            <button type="reset">
+                Limpiar datos
+            </button>
+
+        </form>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>
+            <small>
+                BalanceaT - 2026
+            </small>
+        </p>
+    </footer>
+
+</body>
+</html>
