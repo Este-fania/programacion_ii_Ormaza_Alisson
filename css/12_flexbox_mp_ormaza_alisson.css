@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F8F5EF;
+    color: #35483B;
+}
+
+.planes-alimenticios,
+.evaluaciones-nutricionales,
+.seguimientos-nutricionales {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAEFD4;
+    padding: 20px;
+}
+
+.servicios-nutricionales {
+    display: flex;
+    flex-direction: row;
+    background-color: #688B8A;
+    padding: 20px;
+}
+
+.planes-alimenticios {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #A0B084;
+    padding: 20px;
+}
+
+.evaluaciones-nutricionales {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAEFD4;
+    padding: 20px;
+}
+
+.seguimientos-nutricionales {
+    display: flex;
+    flex-direction: column;
+    background-color: #DCE8C8;
+    padding: 20px;
+}
+
+.equipo-nutricional {
+    display: flex;
+    justify-content: space-between;
+    background-color: #A0B084;
+    padding: 20px;
+}
+
+.equipo-consultas {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #FAEFD4;
+    padding: 20px;
+}
+
+.equipo-bienestar {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #DCE8C8;
+    padding: 20px;
+}
+
+.equipo-alimentacion {
+    display: flex;
+    justify-content: space-around;
+    background-color: #A0B084;
+    padding: 20px;
+}
+
+.equipo-habitos {
+    display: flex;
+    justify-content: center;
+    background-color: #FAEFD4;
+    padding: 20px;
+}
+
+.equipo-seguimiento {
+    display: flex;
+    justify-content: space-between;
+    background-color: #688B8A;
+    padding: 20px;
+}
+
+.servicio {
+    background-color: #688B8A;
+    color: white;
+    padding: 20px;
+    border: 2px solid #FAEFD4;
+}
+
+.especialista {
+    background-color: #688B8A;
+    color: white;
+    padding: 20px;
+    border: 2px solid #FAEFD4;
+}
