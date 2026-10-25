@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    background-color: #F8F5EF;
+    color: #35483B;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    color: #688B8A;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.consulta {
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 3px solid;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.consulta h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.consulta h3 {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.descripcion {
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.frase {
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.firma {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.urgente {
+    background-color: #FAEFD4;
+    border-color: #A57C65;
+}
+
+.urgente h2 {
+    color: #A57C65;
+    text-shadow: 2px 2px 5px #D9B99B;
+}
+
+.activa {
+    background-color: #E5EBDD;
+    border-color: #688B8A;
+}
+
+.activa h2 {
+    color: #688B8A;
+    text-shadow: 2px 2px 5px #A0B084;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #688B8A;
+}

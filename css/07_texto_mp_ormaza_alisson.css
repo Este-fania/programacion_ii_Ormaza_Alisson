@@ -1,0 +1,95 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.texto-inicio {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-alimentacion {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.texto-40px {
+    font-size: 40px;
+}
+
+.texto-20px {
+    font-size: 20px;
+}
+
+.texto-10px {
+    font-size: 10px;
+}
+
+.consulta {
+    font-weight: 200;
+}
+
+.plan {
+    font-weight: 500;
+}
+
+.seguimiento {
+    font-weight: 800;
+}
+
+.estilo_letra_normal {
+    font-style: normal;
+}
+
+.estilo_letra_italica {
+    font-style: italic;
+}
+
+.izquierda {
+    text-align: left;
+}
+
+.centro {
+    text-align: center;
+}
+
+.derecha {
+    text-align: right;
+}
+
+.importante {
+    text-decoration: underline;
+}
+
+.cancelada {
+    text-decoration: line-through;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.titulo_mayuscula {
+    text-transform: uppercase;
+}
+
+.titulo_minusculas {
+    text-transform: lowercase;
+}
+
+.titulo_capitalizado {
+    text-transform: capitalize;
+}
+
+.espaciado_simple {
+    line-height: 1;
+}
+
+.espaciado_doble {
+    line-height: 2;
+}
+
+.espacio_letras1 {
+    letter-spacing: 4px;
+}
+
+.espacio-letras2 {
+    letter-spacing: 1px;
+}
