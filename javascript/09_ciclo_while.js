@@ -60,3 +60,6 @@ do {
     console.log("Semana " + semanas + ": Ahorro actual: " + ahorro + " unidades");
 } while (ahorro < meta);
 console.log("meta alcanzada en " + semanas + " semanas. Ahora Rick puede comprar la pistola de portales.");
+
+
+
