@@ -58,3 +58,4 @@ function misionExitosa (cristales) {
         console.log("Misión fallida, cristales recolectados: " + cristales);
     }
 }  
+
