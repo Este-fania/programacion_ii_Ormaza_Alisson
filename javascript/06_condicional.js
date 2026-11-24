@@ -127,5 +127,7 @@ console.log("Nave Averiada:", naveAveriada);
 console.log("Bonificación Otorgada:", bonificacion);
 
 
+/*tipos de if: simple, doble, multiple y condicional*/
+
 
 
