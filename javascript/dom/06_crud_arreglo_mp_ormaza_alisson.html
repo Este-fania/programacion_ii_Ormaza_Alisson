@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Pacientes</title>
+
+    <script src="06_crud_arreglo_mp_ormaza_alisson.js" defer></script>
+</head>
+
+<body>
+
+    <h1>REGISTRO DE PACIENTES - DIETÉTICA</h1>
+
+    <h2 id="tituloFormulario">Registro de Paciente</h2>
+
+    <form id="formulario">
+
+        <input type="text"
+            id="nombre"
+            placeholder="Nombre del paciente">
+
+        <select id="proceso">
+            <option value="Evaluacion nutricional">Evaluacion nutricional</option>
+            <option value="Plan alimenticio">Plan alimenticio</option>
+            <option value="Seguimiento nutricional">Seguimiento nutricional</option>
+        </select>
+
+        <select id="estado">
+            <option value="activo">Activo</option>
+            <option value="inactivo">Inactivo</option>
+            <option value="pendiente">Pendiente</option>
+        </select>
+
+        <button type="submit" id="guardar">Agregar paciente</button>
+
+        <button type="button" id="cancelar">Cancelar</button>
+
+    </form>
+
+
+    <h2>Pacientes Registrados</h2>
+
+    <h2 id="cantidad">Cantidad de pacientes: 0</h2>
+
+    <div id="contenedor"></div>
+
+</body>
+</html>
